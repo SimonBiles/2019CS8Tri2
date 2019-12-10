@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Emoji</title>
+        <style>
+            body{
+            background-color: black;
+         
+            }
+            #face{
+            width:200px;
+            height:200px;
+            background-color: yellow;
+            border-radius: 50%;
+            position: relative;
+            }
+            .eye{
+            width:70px;
+            height:70px;
+            background-color: white;
+            border-radius: 50%;
+            position: absolute;
+            top: 15%;
+            left: 20%;
+
+
+                
+            }
+            .pupil{
+            width: 30px;
+            height: 30px;
+            background-color: black;
+            border-radius: 50%;
+            position: absolute;
+            top:20%;
+            left:25%;
+
+
+
+                
+            }
+            #leftEye{
+            top: 20%;
+            left: 50%;
+
+                
+            }
+            #rightEye{
+            top: 20%;
+            left: 10%;
+                
+            }
+            #mouth{
+                background: url('emojiMouth.png') no-repeat center center;
+                background-size:contain;
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                top: 50%;
+                left: 25%;
+            }
+            #tongue{
+            background: url('emojiTongue.png') no-repeat center center;
+            background-size:contain;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top:45%;
+            left:25%;
+          
+            }
+        </style>
+    </head>
+    <body>
+        <div id='face'>
+            <div id='leftEye' class='eye'>
+                <div class='pupil'></div>
+            </div>
+            <div id='rightEye' class='eye'>
+                <div class='pupil'></div>
+            </div>
+            <div id='mouth'>
+                <div id='tongue'></div>
+            </div>
+        </div>
+    </body>
+</html>
+
