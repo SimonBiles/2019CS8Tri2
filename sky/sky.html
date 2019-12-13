@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>night sky</title>
+        <style>
+            body{
+                background-image: linear-gradient(Black,black,black,green);
+                height:600px
+            }
+            #moon{
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+                box-shadow: 20px 20px #FFF;
+                transform: translate(300%,50%)
+            }
+            #red{
+                height: 200px;
+                width: 200px;
+                position: absolute;
+                top: 65%;
+                left: 3%;
+                background: red url('brickPattern.png');
+                background-size:40px;
+            }
+                
+              #door{  
+                background: brown url('door.png');
+                background-size: 170px;     
+            }
+            #roof{
+                height: 0px;
+                width: 0px;
+                border-left: 100px solid transparent;
+	            border-right: 100px solid transparent;
+	            border-bottom: 50px solid #555;
+                position: absolute;
+                top: 57%;
+                left: 3%;
+                                   
+
+
+            }
+            </style>
+     </head>
+     <body>
+     <div id='roof'></div>
+     <div id='moon'></div>
+     <div id='red'></div>
+      </body>
+  </html> 
