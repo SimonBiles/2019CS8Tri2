@@ -18,15 +18,20 @@
                 height: 200px;
                 width: 200px;
                 position: absolute;
-                top: 65%;
+                top: 70%;
                 left: 3%;
-                background: red url('brickPattern.png');
+                background: #600 url('brickPattern.png');
                 background-size:40px;
             }
                 
               #door{  
-                background: brown url('door.png');
-                background-size: 170px;     
+                background: url('door.png')no-repeat;
+                background-size: 70px;
+                position: absolute;
+                height: 90px;
+                width: 90px;
+                top:89%;
+                left:17%;
             }
             #roof{
                 height: 0px;
@@ -35,17 +40,37 @@
 	            border-right: 100px solid transparent;
 	            border-bottom: 50px solid #555;
                 position: absolute;
-                top: 57%;
+                top: 61%;
                 left: 3%;
                                    
-
-
             }
+            #window{
+                background: url('window.png')no-repeat;
+                background-size: 50px;
+                position: absolute;
+                height: 80px;
+                width: 80px;
+                top:75%;
+                left:30%;
+            }
+            #window2{
+                background: url('window.png')no-repeat;
+                background-size: 50px;
+                position: absolute;
+                height: 80px;
+                width: 80px;
+                top:75%;
+                left:8%;
+            }
+
             </style>
      </head>
      <body>
      <div id='roof'></div>
      <div id='moon'></div>
      <div id='red'></div>
+     <div id='door'></div>
+     <div id='window'></div>
+     <div id='window2'></div>
       </body>
   </html> 
